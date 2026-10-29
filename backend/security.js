@@ -40,7 +40,8 @@ export const newToken = () => randomBytes(32).toString("base64url");
 export const sha256 = (value) => createHash("sha256").update(value).digest("hex");
 export const newUid = () => `u${randomBytes(10).toString("hex")}`;
 
-// ---------------------------------------------------------------- validation
+// ---------------------------------------------------------------- validation- demo passsword 
+
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const CONTROL_CHARS = /[\u0000-\u001f\u007f]/g;
 const COMMON_PASSWORDS = new Set([
