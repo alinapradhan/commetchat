@@ -1,0 +1,15 @@
+{
+  "name": "commetchat-backend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "dev:demo": "node --watch index.js --demo",
+    "start": "node index.js",
+    "test": "node --test \"test/*.test.mjs\""
+  },
+  "engines": {
+    "node": ">=22.13"
+  }
+}
