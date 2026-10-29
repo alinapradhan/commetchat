@@ -1,7 +1,7 @@
 # CometChat React
 
 A 1:1 and group chat app built on CometChat. The UI and the backend are two separate apps in this repo. Each has
-its own `package.json`, `.env`, tests and README, and they are installed, run and deployed independently. 
+its own `package.json`, `.env`, tests and README, and they are installed, run and deployed independently.  
 
 | Folder | What it is | Details |
 |---|---|---|
